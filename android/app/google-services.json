@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "710064815976",
+    "project_id": "book-nook-laura",
+    "storage_bucket": "book-nook-laura.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710064815976:android:d3a1ca1883a517e8b9e0dd",
+        "android_client_info": {
+          "package_name": "com.example.book_nook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy6eoz9g79r0z_f1kfSO77_KEUgE4KoU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
