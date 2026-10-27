@@ -25,8 +25,9 @@ cd functions
 npm install
 cd ..
 firebase deploy --only firestore:rules,functions
-flutter run
+flutter run --dart-define-from-file=google_books_secrets.json
 ```
+Antes de executar, substitua `COLE_A_NOVA_CHAVE_AQUI` em `google_books_secrets.json` por uma chave nova da Google Books API. Esse arquivo é ignorado pelo Git. Restrinja a chave no Google Cloud à API necessária; como ela é incluída no aplicativo cliente, não a trate como segredo.
 Se `firebase use --add` pedir projeto, selecione o mesmo do FlutterFire. O projeto já inclui `firebase.json` e `functions/package.json`. Confira a versão do Node exigida pelo Firebase antes de implantar.
 Dados no Firestore
 `users/{uid}/books/{googleBooksId}`: `title`, `author`, `cover`, `pages`, `status`.
